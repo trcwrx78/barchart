@@ -1,0 +1,22 @@
+{
+  "name": "barchart",
+  "version": "1.0.0",
+  "description": "ata visualiztion project for freeCodeCamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trcwrx78/barchart.git"
+  },
+  "author": "Torrence Cole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trcwrx78/barchart/issues"
+  },
+  "homepage": "https://github.com/trcwrx78/barchart#readme",
+  "dependencies": {
+    "d3": "^5.15.0"
+  }
+}
