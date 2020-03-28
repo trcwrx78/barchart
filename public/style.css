@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: ghostwhite;
+}
+
+svg {
+  border: 1px solid black;
+  box-shadow: 4px 3px 9px -4px rgba(0,0,0,0.62);
+  background-color: white;
+}
+
+rect {
+  cursor: pointer;
+}
+
+rect:hover {
+  fill: ghostwhite;
+}
+
+#tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 100px;					
+    height: 28px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
