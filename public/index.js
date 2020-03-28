@@ -20,6 +20,7 @@
        .attr("class", "bar")
        .append("title")
        .text(d => d)
+       .append
     
 
     svg.selectAll("text")
